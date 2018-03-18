@@ -1,0 +1,2 @@
+# Joey2DLighting
+This project is an attempt to build a 2D Dynamic Lighting solution for Unity with cleaner code and documentation along with better optimization than the current most popular solution, 2DDL by Martin Ysa. Over time, I'll be working towards feature parity, but the crux of this project is building from scratch the most efficient and accurate lighting simulation possible while maintaining standards of highly readable code with great documentation and powerful options for customization within the inspector.
