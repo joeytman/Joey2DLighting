@@ -2091,14 +2091,14 @@ MonoBehaviour:
   loadedTrigValPrecision: 720
   lightSegments: 40
   renderLight: 1
-  useEqRays: 1
-  usePolyCollRays: 1
-  useEdgeCheckRays: 1
-  highlightCorners: 1
+  useEqRays: 0
+  usePolyCollRays: 0
+  useEdgeCheckRays: 0
+  highlightCorners: 0
   drawDebugLines: 1
   drawEqRays: 1
   drawMeshVertConnections: 1
-  uniformColoredSortOrder: 1
+  uniformColoredSortOrder: 0
 --- !u!1 &1459549336
 GameObject:
   m_ObjectHideFlags: 0
