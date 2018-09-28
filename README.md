@@ -1,5 +1,14 @@
 # Joey2DLighting
-This project is an attempt to build a 2D Dynamic Lighting solution for Unity with cleaner code and documentation along with better optimization than the current most popular solution, 2DDL by Martin Ysa. 
+This project is an attempt to build a 2D Dynamic Lighting solution for Unity with cleaner code and documentation along with better optimization than the current most popular solution, 2DDL by Martin Ysa. This project is a WIP!
+
+# Functionality
+Here's an example of the lighting rendering as it stands now:
+
+![Dragging around light](https://github.com/joeytman/Joey2DLighting/blob/master/Images/Showcase_Brief.gif?raw=true)
+
+This gif showcases a few of the different raytracing methods that are used in conjunction to create the lighting mesh:
+
+![Showcasing options](https://github.com/joeytman/Joey2DLighting/blob/master/Images/Demonstrating_Options.gif?raw=true)
 
 # Goals
 Key to this project is implementing lighting such that restricted angle lighting comes with an actual performance increase, lessening the performance hit for games and projects that rely on many dynamic lights that only cast lighting in a small arc (e.g. streetlights, flashlights, etc). This is a core optimization that 2DDL lacks, and the goal is to have the performance of each angled light scale linearly (or at least close to that) with the angle of light being casted (O(n) where 0 <= n <= 360, the degree of the angle of light cast).
